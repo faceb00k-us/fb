@@ -1,0 +1,137 @@
+.body{
+     display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efeff0;
+  
+  
+}
+
+.fb-image{
+    height: 105px;
+    width: 280px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 12px;
+    margin-top: 40px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 90px;
+    border-width: 1px;
+    height: 420px;
+    width: 450px;
+    border-color: rgb(209, 209, 209);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+        box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+}
+.instruction-text{
+    font-size: 22px;
+    font-family: arial, roboto;
+}
+.address-bar{
+   height: 50px;
+   width: 400px;
+   border-style: solid;
+   border-color: rgb(219, 219, 219);
+   border-radius: 7px;
+   border-width: 1.8px;
+   padding-left: 17px;
+}
+.address-bar::placeholder{
+  font-family: roboto, arial;
+  font-size: 19px;
+
+}
+.password-bar{
+   height: 50px;
+   width: 400px;
+   border-style: solid;
+   border-color: rgb(219, 219, 219);
+   border-radius: 7px;
+   border-width: 1.8px;
+   padding-left: 17px;
+}
+.password-bar::placeholder{
+  font-family: roboto, arial;
+  font-size: 19px;
+
+}
+.log-in-button{
+   height: 50px;
+   width: 421px;
+   border-radius: 7px;
+   border: none;
+   background-color: #166fe5;
+   color: white;
+   font-size: 22px;
+   font-weight: bold;
+    transition: background-color 0.15s, color 0.15s;
+}
+.log-in-button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.reset-password{
+    font-family: roboto, arial;
+    color: #166fe5;
+}
+.reset-password:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.line{
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 415px;
+}
+.create-account{
+   height: 50px;
+   width: 230px;
+   border-radius: 7px;
+   border: none;
+   background-color: #42b72a;
+   color: white;
+   font-size: 19px;
+   font-weight: bold;   
+    transition: background-color 0.15s, color 0.15s;
+   
+}
+.create-account:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.ender{
+    background-color: rgb(255, 255, 255);
+    font-family: roboto, arial;
+    margin: 0;
+    font-size: 13px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+.top{
+    font-family: roboto, arial;
+    color: gray;
+}
+.bottom{
+    font-family: roboto, arial;
+    color: gray;
+}
+.top:hover,.bottom:hover{
+    text-decoration: underline;
+}
