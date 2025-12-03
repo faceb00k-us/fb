@@ -1,6 +1,6 @@
 @media only screen and (max-width:500px){
    .body{
-       transform: scale(2);
+       transform: scale(1.5);
    }
     
 }
@@ -142,6 +142,7 @@
 .top:hover,.bottom:hover{
     text-decoration: underline;
 }
+
 
 
 
