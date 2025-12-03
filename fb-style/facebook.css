@@ -1,10 +1,7 @@
 @media only screen and (max-width:500px){
-    .contents{
-        transform: scale(2);
-    }
-    .fb-image{
-        transform: scale(2);
-    }
+   .body{
+       transform: scale(2);
+   }
     
 }
 
@@ -145,5 +142,6 @@
 .top:hover,.bottom:hover{
     text-decoration: underline;
 }
+
 
 
